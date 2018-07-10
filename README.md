@@ -7,3 +7,5 @@ to run the app, first add `config.js` file within `src` folder. Inside that file
 
     token: YOUR_TOKEN_FOR_GET_MAP_MARKERS
     ACCESS_TOKEN: YOUR_ACCESS_TOKEN_FOR_MAPBOX
+
+Once you have everything set up, run `npm start` or `yarn start` to start the program
