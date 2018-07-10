@@ -1,5 +1,6 @@
 const initialState = {
   mapData: [],
+  alertData: [],
   loading: true
 }
 
@@ -13,6 +14,9 @@ const map = (state = {...initialState}, action) => {
     }
     case 'LOADING_DATA_DONE': {
       return({ ...state, loading: false })
+    }
+    case 'SET_ALERT_DATA': {
+      return ({...state, alertData: action.payload})
     }
     default:
       return state;

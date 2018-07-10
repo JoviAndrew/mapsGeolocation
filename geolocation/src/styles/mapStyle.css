@@ -1,3 +1,31 @@
 #mapId {
-    height: 180px;
+    height: 610px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    margin: 5% auto;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+#mapHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    border-color: #3498db;
+    border-style: solid;
+}
+
+label {
+    margin: 0
+}
+
+.markerLabel {
+    font-size: small
 }
